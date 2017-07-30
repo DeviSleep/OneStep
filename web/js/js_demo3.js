@@ -11,10 +11,10 @@ function valiAccount() {
     var spanObj= document.getElementById("accountInfo");
     if(error){
         spanObj.innerHTML="";
-        spanObj.className="vali success";
+        spanObj.className="vali_success";
     }else {
         spanObj.innerHTML="10 长度以内的字母数字的组合";
-        spanObj.className="vali fail";
+        spanObj.className="vali_fail";
     }
     return error;
 }
@@ -28,11 +28,11 @@ function valiPhone() {
     var spanObj= document.getElementById("phoneInfo");
     if(error){
         spanObj.innerHTML="";
-        spanObj.className="vali success";
+        spanObj.className="vali_success";
 
     }else {
         spanObj.innerHTML="形如:010-12345678";
-        spanObj.className="vali fail";
+        spanObj.className="vali_fail";
     }
     return error;
 }

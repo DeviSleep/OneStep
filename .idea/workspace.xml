@@ -7,10 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b07a9fd-c9da-4531-8662-aad2b49200e3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OneStep/web/css/myStyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OneStep/web/html/js_demo3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OneStep/web/js/js_demo3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OneStep/web/css/Ok.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OneStep/web/css/warning.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../OneStep/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../OneStep/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../OneStep/web/css/myStyle.css" afterPath="$PROJECT_DIR$/../OneStep/web/css/myStyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../OneStep/web/html/js_demo3.html" afterPath="$PROJECT_DIR$/../OneStep/web/html/js_demo3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../OneStep/web/js/js_demo3.js" afterPath="$PROJECT_DIR$/../OneStep/web/js/js_demo3.js" />
     </list>
     <ignored path="$PROJECT_DIR$/../OneStep/out/" />
     <ignored path="$PROJECT_DIR$/../OneStep/target/" />
@@ -39,7 +41,38 @@
     <favorites_list name="OneStep" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="myStyle.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../OneStep/web/css/myStyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js_demo3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../OneStep/web/html/js_demo3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="73" lean-forward="false" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js_demo3.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../OneStep/web/js/js_demo3.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -97,9 +130,9 @@
         <option value="$PROJECT_DIR$/../OneStep/src/main/java/com/demo1/Digui.java" />
         <option value="$PROJECT_DIR$/../OneStep/src/main/java/com/demo1/JieCheng.java" />
         <option value="$PROJECT_DIR$/../OneStep/src/main/java/com/demo1/SelectSort.java" />
-        <option value="$PROJECT_DIR$/../OneStep/web/css/myStyle.css" />
-        <option value="$PROJECT_DIR$/../OneStep/web/js/js_demo3.js" />
         <option value="$PROJECT_DIR$/../OneStep/web/html/js_demo3.html" />
+        <option value="$PROJECT_DIR$/../OneStep/web/js/js_demo3.js" />
+        <option value="$PROJECT_DIR$/../OneStep/web/css/myStyle.css" />
       </list>
     </option>
   </component>
@@ -219,6 +252,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OneStep" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OneStep" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -274,6 +325,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OneStep\web\css" />
       <recent name="D:\OneStep\web\html" />
       <recent name="D:\OneStep\web" />
       <recent name="D:\OneStep\web\js" />
@@ -947,7 +999,7 @@
       <workItem from="1500382502771" duration="602000" />
       <workItem from="1500462831792" duration="8667000" />
       <workItem from="1500776875188" duration="637000" />
-      <workItem from="1501389646431" duration="8128000" />
+      <workItem from="1501389646431" duration="9756000" />
     </task>
     <task id="LOCAL-00001" summary="7.17 提交">
       <created>1500298855110</created>
@@ -970,11 +1022,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500471688433</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="7.30 提交js03">
+      <created>1501397873307</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1501397873307</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87861000" />
+    <option name="totallyTimeSpent" value="89489000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1010,7 +1069,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2505423" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3264642" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13034189" sideWeight="0.70333743" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13087606" sideWeight="0.70333743" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26705757" sideWeight="0.29666254" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26705757" sideWeight="0.29666254" order="2" side_tool="true" content_ui="tabs" />
@@ -1075,7 +1134,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="7.17 提交" />
     <MESSAGE value="7.19 提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.19 提交" />
+    <MESSAGE value="7.30 提交js03" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.30 提交js03" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1099,20 +1159,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../OneStep/src/main/java/com/CountServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../OneStep/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="65" lean-forward="false" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../OneStep/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1441,24 +1487,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../OneStep/web/js/js_demo3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        <state relative-caret-position="221">
+          <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../OneStep/web/css/Ok.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../OneStep/web/css/warning.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../OneStep/web/html/js_demo3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="73" lean-forward="false" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../OneStep/web/css/myStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../OneStep/web/html/js_demo3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="415">
+          <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
           <folding />
         </state>
       </provider>

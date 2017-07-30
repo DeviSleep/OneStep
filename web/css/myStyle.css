@@ -27,17 +27,17 @@ input.txt_focus
 }
 
 /*验证消息：通过时的样式*/
-span.vali success
+span.vali_success
 {
     padding-left: 20px;
-    background-image: url("ok.png");
+    background-image: url("Ok.png");
 }
 
 /*验证失败的样式*/
-span.vali fail
+span.vali_fail
 {
     padding-left: 20px;
-    background-image: url(warning.png);
+    background-image: url("warning.png");
     border: 1px solid red;
     background-color: #fdecec;
     color: red;
