@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html" charset="UTF-8">
+<title>JavaScript Day01</title>
+<script type="text/javascript" language="javascript">
+	function firstMethod(){
+		alert('hello world in script block.');
+	}
+</script>
+<script src="js_demo01.js" type="text/javascript" language="javascript"></script>
+</head>
+<body>
+	<form>
+		<h2>1.Hello World</h2>
+		<input type="button" value="first  button" onclick="alert('Hello world.');" />
+		<input type="button" value="second button" onclick="firstMethod();" />
+		<input type="button" value="third button " onclick="secondMethod();"/>
+		
+		<h2>2.判断数据类型，并计算平方</h2>
+		<input type="text" id="txtData" />
+		<input type="button" value="计算平方" onclick="getSquare();" />
+		
+		<h2>3.猜数字</h2>
+		请录入测出的数字（1-20之间的整数）：<br />
+		<input type="text" id="txtNumber" onblur="guessNumber();"/>  <span>onblur 事件会在对象失去焦点时发生</span>
+		
+		<h2>4.控制语句：求阶乘</h2>
+		<input type="button" value="求10的阶乘" onclick="getFac();" />
+		
+		<h2>5.String对象：字符的查找与过滤</h2>
+		<input  type="text" id="txtString"/><br />
+		<input type="button" value="过滤特殊字符（js）" onclick="searchStringAndReplace();" />
+		<input type="button" value="查找字符并过滤（使用正则表达式）" onclick="stringRegex();"/>
+		
+		<h2>6.Array对象：倒转、文本与数字的排序</h2>
+		<input type="text" id="txtNumbers" value="12,4,3,123,52" style="font-size:13pt;"/>
+		<input type="button" value="数组倒转" onclick="operateArray(1);" />
+		<input type="button" value="数组排序（文本）" onclick="operateArray(2);" />
+		<input type="button" value="数组排序（数字）" onclick="operateArray(3);" />
+		
+		<h2>7.Math 对象：随机数生成器</h2>
+		最小值：<input type="text" id="txtMin" /><br />
+		最大值：<input type="text" id="txtMax" /><br />
+		<input type="button" value="得到随机数" onclick="getRandomNumber();" />
+		
+		<h2>8.Number 对象：计算资产的折旧</h2>
+		录入资产采购的价值：<input type="text" id="txtPrice" value="1000"/><br />
+		录入折旧率：<input type="text" id="txtRate"  value="0.15" /><br />
+		录入计算年限：<input type="text" id="txtYear" value="5" /><br />
+		<input type="button" value="计算" onclick="calculateDepreciation();" /><br />
+		<textarea id="txtResult" cols="50" rows="7"></textarea>
+	</form>
+</body>
+</html>

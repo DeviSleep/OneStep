@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html" charset="UTF-8">
+<title>管理员列表</title>
+<style type="text/css"></style>
+<link type="text/css" rel="Stylesheet" href="admin_style.css" />
+</head>
+<body>
+	<!--1.logo区 -->
+	<div id="header">
+		<img  src="../img/logo.png" alt="logo"/>
+		<a href="#">[退出]</a>
+	</div>
+	<!--2.导航区  -->
+	<div id="navi">
+		<ul id="menu">
+			<li><a href="#" class="index_off"></a></li>
+			<li><a href="#" class="role_off"></a></li>
+			<li><a href="#" class="admin_off"></a></li>
+			<li><a href="#" class="fee_off"></a></li>
+			<li><a href="#" class="account_off"></a></li>
+			<li><a href="#" class="service_off"></a></li>
+			<li><a href="#" class="bill_off"></a></li>
+			<li><a href="#" class="report_off"></a></li>
+			<li><a href="#" class="information_off"></a></li>
+			<li><a href="#" class="password_off"></a></li>
+		</ul>
+	</div>
+	<!--3.主要区域  -->
+	<div id="main">
+			<!--3.1 操作区域 -->
+			<div id="operate">
+			</div>
+<!-- 信息提示框 -->				
+<div id="operate_result_info" class="operate_success">
+	<img src="../img/close.png"/>
+	<span>操作成功！</span>
+</div>
+<div id="operate_result_info" class="operate_fail">
+	<img src="../img/close.png"/>
+	<span>操作失败！</span>
+</div>
+			<!-- 3.2数据区域 -->
+			<div id="data">
+				<table id="datalist">
+					<tr class="header">
+						<td>
+							<input type="checkbox"/>
+							<span>全选</span>
+						</td>
+						<td>管理员ID</td>
+						<td>姓名</td>
+						<td>拥有角色</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox"></td>
+						<td>1</td>
+						<td>贾强</td>
+						<td>超级管理员、角色管理员、账单管理员</td>
+						<td>
+							<input type="button" class="btn_modify" value="修改">
+							<input type="button" class="btn_delete" value="删除">
+						</td>
+					</tr>
+					<tr>
+						<td><input type="checkbox"></td>
+						<td>2</td>
+						<td>贾强</td>
+						<td>超级管理员、角色管理员</td>
+						<td>
+							<input type="button" class="btn_modify" value="修改">
+							<input type="button" class="btn_delete" value="删除">
+						</td>
+					</tr>
+					<tr>
+						<td><input type="checkbox"></td>
+						<td>3</td>
+						<td>贾强</td>
+						<td>超级管理员、账单管理员</td>
+						<td>
+							<input type="button" class="btn_modify" value="修改">
+							<input type="button" class="btn_delete" value="删除">
+						</td>
+					</tr>
+					<tr>
+						<td><input type="checkbox"></td>
+						<td>4</td>
+						<td>贾强</td>
+						<td>角色管理员、账单管理员</td>
+						<td>
+							<input type="button" class="btn_modify" value="修改">
+							<input type="button" class="btn_delete" value="删除">
+						</td>
+					</tr>
+				</table>
+			</div>
+			<!-- 3.3分页 -->
+			<div id="pages">
+			</div>
+	</div>
+	<!--4. 页脚区 -->
+	<div id="footer">
+		<p>&lt;源自北美的技术，最优秀的师资，最真实的企业环境，最实用的实战项目&gt;</p>
+		<p>版权所有&copy;加拿大达内IT培训集团公司</p>
+	</div>
+</body>
+</html>
