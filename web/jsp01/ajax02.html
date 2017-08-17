@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ajax02 html</title>
+    <script type="text/javascript">
+        function getXhr() {
+            var xhr = null;
+            if (window.XMLHttpRequest) {
+                xhr = new XMLHttpRequest;
+            } else {
+                xhr = new XMLHttpRequest;
+            }
+            return xhr;
+        }
+
+        function getText() {
+            var n = 0;
+            var xhr = getXhr();
+            console.log("记录交互的状态readystate的");
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    var txt = xhr.responseText;
+                    alert(txt);
+                    var span = document.getElementById("text");
+                    span.innerHTML = txt;
+                }
+                alert('ok');
+                console.log(n);
+                n++;
+            };
+            xhr.open("get", "get_text.do", true);
+            xhr.send(null);
+        }
+
+    </script>
+</head>
+<body>
+<!-- 获取服务器端 一段文本 -->
+<a href="javascript:;" onclick="getText();">获取文本</a>
+<span id="text"></span>
+</body>
+</html>
