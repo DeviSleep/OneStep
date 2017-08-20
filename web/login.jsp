@@ -9,22 +9,22 @@
 <html>
 <head>
     <title>login</title>
-    <style type="text/css" >
-        .s1{
+    <style type="text/css">
+        .s1 {
             cursor: pointer;
         }
     </style>
 </head>
 <body>
 
-    <form action="login.do" method="post">
-        用户名:<input name="uname" /><br><br>
-        密码:<input name="pwd" type="password"/><br><br>
-        验证码：<input name="vcode" />
-        <img src="code" class="s1" title="点击更换" onclick="this.src='code?'+Math.random();" />
-        <Br><br>
-        <input type="submit" value="登录" />
-    </form>
+<form action="login.do" method="post">
+    用户名:<input name="uname"/><br><br>
+    密码:<input name="pwd" type="password"/><br><br>
+    验证码：<input name="vcode"/>
+    <img src="code" class="s1" title="点击更换" onclick="this.src='code?'+Math.random();"/>
+    <Br><br>
+    <input type="submit" value="登录"/>
+</form>
 
 </body>
 </html>

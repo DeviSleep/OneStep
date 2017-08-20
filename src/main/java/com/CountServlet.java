@@ -23,14 +23,14 @@ public class CountServlet extends HttpServlet {
         HttpSession session = req.getSession();
         System.out.println(session.getId());
         Integer count = (Integer) session.getAttribute("count");
-        if(count==null){
-            count=1;
-        }else{
+        if (count == null) {
+            count = 1;
+        } else {
             count++;
         }
 
-        session.setAttribute("count",count);
-        out.println("这是第"+count+"次访问");
+        session.setAttribute("count", count);
+        out.println("这是第" + count + "次访问");
         out.close();
 
     }

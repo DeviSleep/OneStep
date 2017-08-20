@@ -9,16 +9,16 @@
 <html>
 <head>
     <title>校验</title>
-    <style type="text/css" >
-        .s1{
+    <style type="text/css">
+        .s1 {
             cursor: pointer;
         }
     </style>
-    
+
 </head>
 <body>
-        验证码：<input name="vcode" />
-        <img src="code" class="s1" title="点击更换" onclick="this.src='code?'+Math.random();" />
+验证码：<input name="vcode"/>
+<img src="code" class="s1" title="点击更换" onclick="this.src='code?'+Math.random();"/>
 
 </body>
 </html>

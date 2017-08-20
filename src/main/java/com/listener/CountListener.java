@@ -17,7 +17,7 @@ public class CountListener implements HttpSessionListener {
         count++;
         HttpSession session = httpSessionEvent.getSession();
         ServletContext sct = session.getServletContext();
-        sct.setAttribute("count",count);
+        sct.setAttribute("count", count);
 
     }
 
@@ -25,6 +25,6 @@ public class CountListener implements HttpSessionListener {
         count--;
         HttpSession session = httpSessionEvent.getSession();
         ServletContext sct = session.getServletContext();
-        sct.setAttribute("count",count);
+        sct.setAttribute("count", count);
     }
 }

@@ -22,29 +22,29 @@ public class CommentFilter01 implements Filter {
      */
     public void init(FilterConfig filterConfig) throws ServletException {
         illegalWord = filterConfig.getInitParameter("illegalWord");
-        System.out.println("Filter01: init is running…… "+illegalWord);
+        System.out.println("Filter01: init is running…… " + illegalWord);
     }
 
     /**
-     *  用于处理请求的主要方法
+     * 用于处理请求的主要方法
      */
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
 
-        HttpServletRequest request = (HttpServletRequest)servletRequest;
-        HttpServletResponse response = (HttpServletResponse)servletResponse;
+        HttpServletRequest request = (HttpServletRequest) servletRequest;
+        HttpServletResponse response = (HttpServletResponse) servletResponse;
         request.setCharacterEncoding("utf-8");
         response.setContentType("text/html;charset=utf-8");
         PrintWriter out = response.getWriter();
 
         String comment = request.getParameter("comment");
-        if (comment.indexOf(illegalWord)!=-1||comment.indexOf("damn")!=-1){
+        if (comment.indexOf(illegalWord) != -1 || comment.indexOf("damn") != -1) {
             //有敏感词汇
             out.print("<h3>评论内容已关闭！</h3>");
-        }else {
+        } else {
 
             String url = request.getRequestURI();
             System.out.println(url);
-            filterChain.doFilter(request,response);     //否则交给其他过滤器 或servlet处理
+            filterChain.doFilter(request, response);     //否则交给其他过滤器 或servlet处理
         }
 
     }

@@ -10,19 +10,19 @@ public class Digui {
      * 计算二进制中1的个数，
      * N为奇数，二进制中1的个数等于N/2的个数
      */
-    public static int getBinary(int num){
-        if (num==1){
+    public static int getBinary(int num) {
+        if (num == 1) {
             return 1;
         }
-        if (0==num%2){
-            return getBinary(num/2);
-        }else {
-            return getBinary(num/2)+1;
+        if (0 == num % 2) {
+            return getBinary(num / 2);
+        } else {
+            return getBinary(num / 2) + 1;
         }
     }
 
-    public static void main(String[] args){
-            System.out.println(getBinary(10));
+    public static void main(String[] args) {
+        System.out.println(getBinary(10));
     }
 
 }

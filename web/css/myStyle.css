@@ -1,6 +1,5 @@
 /* 文本框 */
-input.txt,input.txt_focus
-{
+input.txt, input.txt_focus {
     border: 1px solid gray;
     font-size: 13pt;
     line-height: 18px;
@@ -8,15 +7,13 @@ input.txt,input.txt_focus
 }
 
 /* 文本框获得焦点时的样式 */
-input.txt_focus
-{
-    border-top:2px solid black;
+input.txt_focus {
+    border-top: 2px solid black;
     border-left: 2px solid black;
 }
 
 /*验证信息框 */
-#accountInfo，#phoneInfo
-{
+#accountInfo，#phoneInfo {
     margin: 5px 10px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -27,15 +24,13 @@ input.txt_focus
 }
 
 /*验证消息：通过时的样式*/
-span.vali_success
-{
+span.vali_success {
     padding-left: 20px;
     background-image: url("Ok.png");
 }
 
 /*验证失败的样式*/
-span.vali_fail
-{
+span.vali_fail {
     padding-left: 20px;
     background-image: url("warning.png");
     border: 1px solid red;
@@ -43,4 +38,16 @@ span.vali_fail
     color: red;
 }
 
-
+/*购物车*/
+table
+{
+    border-collapse: collapse;
+}
+td
+{
+    border: 1px solid gray;
+}
+table input
+{
+    width: 30px;
+}

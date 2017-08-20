@@ -3,56 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <title>JS day02 RegExp</title>
-    <meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-type" content="text/html;charset=utf-8"/>
     <script language="JavaScript" type="text/javascript" src="../js/js_demo2.js"></script>
 </head>
 <body>
 
-        <form>
-            <h2>1.输入验证</h2>
-            用户名（3~6位数字字母的组合）:
-            <input type="text" id="txtName" onblur="validateUserName();"/><br><br>
-            电话号码（6位数字）:
-            <input type="text" id="txtPhone" onblur="validatePhone();" /><br>
+<form>
+    <h2>1.输入验证</h2>
+    用户名（3~6位数字字母的组合）:
+    <input type="text" id="txtName" onblur="validateUserName();"/><br><br>
+    电话号码（6位数字）:
+    <input type="text" id="txtPhone" onblur="validatePhone();"/><br>
 
-            <h2>2. Date 对象：订单时段查询</h2>
-            <input id="chkThree" type="radio" onclick="getDateRange(3);" name="date" />
-            <label for="chkThree">三天内</label>
-            <input id="chkWeek" type="radio" onclick="getDateRange(7);" name="date" />
-            <label for="chkWeek">一周内</label>
+    <h2>2. Date 对象：订单时段查询</h2>
+    <input id="chkThree" type="radio" onclick="getDateRange(3);" name="date"/>
+    <label for="chkThree">三天内</label>
+    <input id="chkWeek" type="radio" onclick="getDateRange(7);" name="date"/>
+    <label for="chkWeek">一周内</label>
 
-            <h2>3. arguments:方法重载</h2>
-            <input type="button" value="计算平方" onclick="myMethod(12);"/>
-            <input type="button" value="加法" onclick="myMethod(12,45);" />
+    <h2>3. arguments:方法重载</h2>
+    <input type="button" value="计算平方" onclick="myMethod(12);"/>
+    <input type="button" value="加法" onclick="myMethod(12,45);"/>
 
-            <h2>4. 对象和匿名函数</h2>
-            <input type="button" value="排序" onclick="sortArry();" />
+    <h2>4. 对象和匿名函数</h2>
+    <input type="button" value="排序" onclick="sortArry();"/>
 
-            <h2>5.eval方法：简单计算器</h2>
-            <input type="button" value="1" onclick="simpleCal(this.value);" />
-            <input type="button" value="2" onclick="simpleCal(this.value);" />
-            <input type="button" value="3" onclick="simpleCal(this.value);" />
-            <input type="button" value="4" onclick="simpleCal(this.value);" />
-            <input type="button" value="+" onclick="simpleCal(this.value);" />
-            <input type="button" value="-" onclick="simpleCal(this.value);" />
-            <input type="button" value="=" onclick="simpleCal(this.value);" />
-            <input type="text" id="txtData" style="font-size: 15pt;border: 1px solid gray;" />
+    <h2>5.eval方法：简单计算器</h2>
+    <input type="button" value="1" onclick="simpleCal(this.value);"/>
+    <input type="button" value="2" onclick="simpleCal(this.value);"/>
+    <input type="button" value="3" onclick="simpleCal(this.value);"/>
+    <input type="button" value="4" onclick="simpleCal(this.value);"/>
+    <input type="button" value="+" onclick="simpleCal(this.value);"/>
+    <input type="button" value="-" onclick="simpleCal(this.value);"/>
+    <input type="button" value="=" onclick="simpleCal(this.value);"/>
+    <input type="text" id="txtData" style="font-size: 15pt;border: 1px solid gray;"/>
 
-            <h2>6.对话框：删除操作的提交和取消</h2>
-            <input type="submit" value="删除" onclick="return delFunc();" />
+    <h2>6.对话框：删除操作的提交和取消</h2>
+    <input type="submit" value="删除" onclick="return delFunc();"/>
 
-            <h2>7 . 动态时钟</h2>
-            <input type="button" value="显示时间" onclick="showTime();" />
-            <input type="button" value="启动时钟" onclick="startClock();" />
-            <input type="button" value="停止时钟" onclick="stopClock();" />
-            <br><br>
-            <span id="spanTime" style="font-size: 15pt;"></span>
+    <h2>7 . 动态时钟</h2>
+    <input type="button" value="显示时间" onclick="showTime();"/>
+    <input type="button" value="启动时钟" onclick="startClock();"/>
+    <input type="button" value="停止时钟" onclick="stopClock();"/>
+    <br><br>
+    <span id="spanTime" style="font-size: 15pt;"></span>
 
-            <h2>8. 页面定时跳转</h2>
-            <input type="button" value="5s 后打开新页面" onclick="openNewWait();"/>
-            如果想取消，请点击<a href="javascript:cancelOpen();">这里</a>
+    <h2>8. 页面定时跳转</h2>
+    <input type="button" value="5s 后打开新页面" onclick="openNewWait();"/>
+    如果想取消，请点击<a href="javascript:cancelOpen();">这里</a>
 
-        </form>
+</form>
 
 </body>
 </html>

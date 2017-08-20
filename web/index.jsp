@@ -8,18 +8,18 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <%
     //session验证
-    Object uname=session.getAttribute("uname");
-    if (uname==null){
+    Object uname = session.getAttribute("uname");
+    if (uname == null) {
         response.sendRedirect("login.jsp");
         return;
     }
 %>
 <html>
-  <head>
+<head>
     <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-      <h3>首页</h3>欢迎你：<%=uname.toString()%><br><br>
-  </body>
+</head>
+<body>
+$END$
+<h3>首页</h3>欢迎你：<%=uname.toString()%><br><br>
+</body>
 </html>

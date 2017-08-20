@@ -19,7 +19,7 @@ public class CommentServlet extends HttpServlet {
         PrintWriter out = resp.getWriter();
 
         String str = req.getParameter("comment");
-        out.println("<h3>评论内容："+str+"</h3>");
+        out.println("<h3>评论内容：" + str + "</h3>");
         out.close();
     }
 

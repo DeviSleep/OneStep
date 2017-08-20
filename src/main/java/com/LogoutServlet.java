@@ -17,7 +17,7 @@ public class LogoutServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html;charset=utf-8");
-        PrintWriter out= resp.getWriter();
+        PrintWriter out = resp.getWriter();
 
         HttpSession session = req.getSession();
         session.invalidate();
