@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>json01.html</title>
+    <script type="text/javascript">
+        function f1(){
+            var obj = {'name':'Luffy','age':17};
+            alert(obj.name + " " + obj.age);
+        }
+        function f2() {
+            var obj = {
+                'name':'Flower',
+                'address':{'city':'shenzhen','street':'bantian','room':9}
+            };
+            alert(obj.name+" "+obj.address.city);
+        }
+        function f3() {
+            var arr = [{'name':'Chen','age':27},{'name':'QUAN','age':26}];
+            alert(arr[1].age + " "+ arr[0].name);
+        }
+    </script>
+</head>
+<body>
+        <!--创建 JavaScript对象并查看属性-->
+        <a href="javascript:;" onclick="f1();f2();f3();">查看对象属性</a>
+</body>
+</html>

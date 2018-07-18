@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Intre_cq/Intre_cq.iml" filepath="$PROJECT_DIR$/Intre_cq/Intre_cq.iml" />
       <module fileurl="file://$PROJECT_DIR$/OneStep.iml" filepath="$PROJECT_DIR$/OneStep.iml" />
     </modules>
   </component>
